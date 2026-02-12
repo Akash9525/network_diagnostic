@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://google.com",
+        "dns": {
+            "ip": "192.178.211.139"
+        },
+        "ping": {
+            "latency_ms": "94.0"
+        },
+        "tcp_80": true,
+        "tcp_443": true,
+        "http": {
+            "status_code": 200,
+            "reason": "OK"
+        },
+        "ssl": {
+            "days_to_expiry": 60
+        }
+    },
+    {
+        "url": "https://github.com",
+        "dns": {
+            "ip": "20.207.73.82"
+        },
+        "ping": {
+            "latency_ms": "106"
+        },
+        "tcp_80": true,
+        "tcp_443": true,
+        "http": {
+            "status_code": 200,
+            "reason": "OK"
+        },
+        "ssl": {
+            "days_to_expiry": 52
+        }
+    }
+]
